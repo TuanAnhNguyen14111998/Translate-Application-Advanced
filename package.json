@@ -1,0 +1,31 @@
+{
+  "name": "translate-application-advanced",
+  "version": "1.0.0",
+  "description": "Translate Application",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TuanAnhNguyen14111998/Translate-Application-Advanced.git"
+  },
+  "author": "TuanAnhNguyen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TuanAnhNguyen14111998/Translate-Application-Advanced/issues"
+  },
+  "homepage": "https://github.com/TuanAnhNguyen14111998/Translate-Application-Advanced#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cheerio": "^1.0.0-rc.2",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "google-translate-token": "^1.0.0",
+    "got": "^9.0.0",
+    "morgan": "^1.9.0",
+    "querystring": "^0.2.0",
+    "request": "^2.87.0",
+    "safe-eval": "^0.4.1"
+  }
+}
