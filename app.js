@@ -49,6 +49,7 @@ app.post('/translate', function (req, res) {
     setTimeout(function () {
         res.render('index', { data: noidungdadich });
     }, 3000);
+    // callback
 })
 
 // thiet lap cong lang nghe cho ung dung

@@ -79,6 +79,8 @@ function translate(text, opts) {
 
         data[token.name] = token.value;
 
+        console.log(url + '?' + querystring.stringify(data));
+
         // tra ve mot url day du
         return url + '?' + querystring.stringify(data);
     }).then(function (url) {
