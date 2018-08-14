@@ -1,0 +1,20 @@
+{
+  "name": "translate-token-by-me",
+  "version": "1.0.0",
+  "description": "Custom api google translate token ",
+  "main": "app,js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "configstore": "^4.0.0",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "got": "^9.0.0",
+    "querystring": "^0.2.0",
+    "safe-eval": "^0.4.1"
+  }
+}
